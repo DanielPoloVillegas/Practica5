@@ -27,5 +27,11 @@ namespace Git_Ex1
 			
 			// Segunda modificación 2016 en clase
         }
+
+        //Creado por Daniel Polo Villegas
+        private void Hora_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(DateTime.Now.ToShortTimeString());
+        }
     }
 }
