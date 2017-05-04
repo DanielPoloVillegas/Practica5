@@ -31,7 +31,7 @@ namespace Git_Ex1
         //Creado por Daniel Polo Villegas
         private void Hora_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(DateTime.Now.ToShortTimeString());
+            MessageBox.Show("Ya no se muestra la hora. Tragica historia.");
         }
     }
 }
